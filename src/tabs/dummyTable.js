@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 
 const DummyTable = () => (
     <table>
@@ -7,7 +6,6 @@ const DummyTable = () => (
             <td>Dummy</td>
             <td>Table</td>
         </tr>
-        {/*<Outlet />*/}
     </table>
 );
 
